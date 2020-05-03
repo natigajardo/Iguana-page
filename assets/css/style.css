@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1{
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+h2 {
+font-weight: 500;
+font-size: 1.5em;
+color: #ffffff;
+}
+
+p, a {
+font-weight: 300;
+color: #ffffff;
+}
+
+.title {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+footer, .icons-section {
+  background-color: #1E1A13;
+  color: #ffffff;
+}
+
+.desc-section {
+  text-align: left;
+  padding: 40px;
+  background-color: #000000;
+  white-space: nowrap;
+}
+
+.hero-section {
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding: 28%;
+}
+
+footer {
+  padding: 30px;
+}
+
+.texto, caracteristicas {
+ display: inline-block;
+}
+
+.descripcion {
+  width: 80%;
+  padding: 1rem 6rem;
+}
+
+.iguana1 {
+ width: 40%;
+ vertical-align: middle;
+}
+
+.texto {
+ text-align: left;
+ width: 50%;
+ vertical-align: middle;
+ white-space: normal;
+ margin-right: 10%;
+}
+
+#caracteristicas {
+padding: 4rem 5rem;
+}
+
+#caracteristicas h2 {
+  padding-bottom: 3rem;
+}
+
+#caracteristicas a {
+ color: #ffffff;
+ text-decoration: none;
+ display: inline-block;
+ width: 25%;
+}
+
+.galeria {
+ padding: 4.5%;
+}
+
+.galeria img {
+  display: inline-block;
+  margin-right: 1.3%;
+  vertical-align: middle;
+  height: 202px;
+  width: 316px;
+}
+
+#informacion p a {
+  text-decoration: none;
+  color: #ffffff;
+}
